@@ -1,3 +1,15 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
 .home-content {
-  margin: 0px 30px 30px 30px
+  margin: 20px 30px 30px 30px
+}
+
+.project {
+  margin: 30px;
+  width: 600px
 }

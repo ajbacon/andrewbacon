@@ -4,7 +4,10 @@ import './Home.css';
 const Home = () => {
   return (
     <div className='home'>
-      <div className='home-content'>Is not a poes</div>
+      <div>Andrew is GREAT, you should definitely hire him!</div>
+      <div>
+        <img className='project' src='zZNgk.png' alt='' />
+      </div>
     </div>
   );
 };
