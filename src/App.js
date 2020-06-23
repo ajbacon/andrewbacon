@@ -1,11 +1,14 @@
 import React from 'react';
+
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <h1>andrew bacon.</h1>
-      <div>Is not a Poes</div>
+      <Navbar></Navbar>
+      <Home></Home>
     </div>
   );
 }
