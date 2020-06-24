@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <header className='nav-container'>
-        <a href='#logo' class='logo'>
+        <a href='#logo' className='logo'>
           andrew bacon.
         </a>
         <input className='nav-menu-btn' type='checkbox' id='nav-menu-btn' />
-        <label className='nav-menu-icon' for='nav-menu-btn'>
+        <label className='nav-menu-icon' htmlFor='nav-menu-btn'>
           <span className='navicon'></span>
         </label>
         <ul className='nav-menu'>
