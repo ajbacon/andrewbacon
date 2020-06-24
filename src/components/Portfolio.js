@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import deviceImg from './zZNgk.png';
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
         </div>
 
         <div className='portfolio-image'>
-          <img className='device-image' src='zzNgk.png' alt='' />
+          <img className='device-image' src={deviceImg} alt='' />
           <img className='stocksapp-gif' src='stocksapp3.gif' alt='' />
         </div>
       </div>
@@ -21,7 +22,7 @@ const Portfolio = () => {
         </div>
 
         <div className='portfolio-image'>
-          <img className='device-image' src='zzNgk.png' alt='' />
+          <img className='device-image' src={deviceImg} alt='' />
           <img className='stocksapp-gif' src='neon.gif' alt='' />
         </div>
       </div>
