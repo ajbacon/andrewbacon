@@ -6,8 +6,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <header className='nav-container'>
-        <a href='#logo' className='logo'>
-          andrew bacon.
+        <a href='/' className='logo'>
+          <p>
+            andrew bacon<span className='blue-dot'>.</span>
+          </p>
         </a>
         <input className='nav-menu-btn' type='checkbox' id='nav-menu-btn' />
         <label className='nav-menu-icon' htmlFor='nav-menu-btn'>
@@ -21,10 +23,7 @@ const Navbar = () => {
             <a href='/portfolio'>portfolio</a>
           </li>
           <li>
-            <a href='#about'>blog</a>
-          </li>
-          <li>
-            <a href='#careers'>about</a>
+            <a href='/blog'>blog</a>
           </li>
         </ul>
       </header>

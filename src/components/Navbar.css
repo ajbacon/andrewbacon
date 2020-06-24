@@ -6,7 +6,7 @@ a {
 
 .nav-container {
   background-color: #383E42;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -31,12 +31,15 @@ a {
 
 .nav-container .logo {
   display: block;
-  color: #00A8E8;
   float: left;
   font-size: 2.3em;
   padding: 10px 20px;
   letter-spacing: 5px;
   text-decoration: none;
+}
+
+.blue-dot {
+  color: #00A8E8;
 }
 
 /* menu */
@@ -53,7 +56,7 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 35px 20px 28px 20px;
   position: relative;
   user-select: none;
 }
