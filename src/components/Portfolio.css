@@ -32,7 +32,7 @@
   font-weight: bold;
   letter-spacing: 2px;
   color: #00A8E8;
-  margin-left: 100px
+  margin-left: 10vw
 }
 
 .device-image {
@@ -69,6 +69,14 @@
 
   .device-image {
     width: 100%
+  }
+
+  .portfolio-title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #00A8E8;
+    margin-left: 8vw
   }
 
   .stocksapp-gif {
