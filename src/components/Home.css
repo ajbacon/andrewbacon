@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  margin: 30px 0 0 0;
 }
 
 .home-content {
@@ -12,4 +13,21 @@
 .project {
   margin: 30px;
   width: 600px
+}
+
+.title {
+  color: #00A8E8;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.content {
+  margin: 20px;
+  width: 60%;
+  letter-spacing: 2px;
+}
+.content p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: distribute;
 }

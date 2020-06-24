@@ -15,10 +15,10 @@ const Navbar = () => {
         </label>
         <ul className='nav-menu'>
           <li>
-            <a href='#home'>home</a>
+            <a href='/'>home</a>
           </li>
           <li>
-            <a href='#work'>portfolio</a>
+            <a href='/portfolio'>portfolio</a>
           </li>
           <li>
             <a href='#about'>blog</a>
