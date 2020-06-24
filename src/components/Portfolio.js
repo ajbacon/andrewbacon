@@ -1,18 +1,10 @@
 import React from 'react';
-// import './Portfolio.css';
+import './Portfolio.css';
 
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
-      <div>Portfolio page</div>
+      <img src='zzNgk.png' alt='' />
     </div>
   );
 };
