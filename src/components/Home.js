@@ -25,19 +25,17 @@ const Home = () => {
       </div>
       <div className='content'>
         <p>
-          I'm a full-stack software engineer from London. Lorem Ipsum is simply
-          dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an
-          unknown printer took a galley of type and scrambled it to make a type
-          specimen book.
+          I'm a software engineer from London. Specialising in full-stack web
+          development and a strong interest in cloud-native technologies, I am
+          proficient in JavaScript, Node, React, Python and various other
+          associated libraries and frameworks.
         </p>
         <p>
-          It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was
-          popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
+          Software engineering has not been my only passion. After earning a
+          Masters degree in Aerospace Engineering from the University of
+          Manchester, I went on to work in the Aerospace industry specialising
+          in the design, analysis and testing of Satellite and aircraft wing
+          structures.
         </p>
       </div>
       <div className='link'></div>
