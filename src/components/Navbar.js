@@ -7,9 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
       <header className='nav-container'>
         <a href='/' className='logo'>
-          <p>
-            andrew bacon<span className='blue-dot'>.</span>
-          </p>
+          andrew bacon<span className='blue-dot'>.</span>
         </a>
         <input className='nav-menu-btn' type='checkbox' id='nav-menu-btn' />
         <label className='nav-menu-icon' htmlFor='nav-menu-btn'>

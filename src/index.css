@@ -12,7 +12,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+p {
+  margin: 20px 0px
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
