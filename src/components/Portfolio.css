@@ -17,7 +17,15 @@
 .portfolio-info {
   margin-bottom: 30px;
 }
+
+.title-line {
+  flex-grow:1;
+  border-bottom: 2px solid #00A8E8;;
+}
+
+
 .portfolio-title {
+  display:flex;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0.125em;

@@ -7,7 +7,10 @@ const Portfolio = () => {
     <div className='portfolio'>
       <div className='portfolio-item'>
         <div className='portfolio-info'>
-          <div className='portfolio-title'>StocksApp</div>
+          <div className='portfolio-title'>
+            <h3>StocksApp</h3>
+            <div className='title-line'></div>
+          </div>
           <div className='portfolio-links'>
             <a href='https://project-stocks-app.herokuapp.com/'>website</a>
             <a href='https://github.com/ajbacon/StocksApp'>code</a>
@@ -78,7 +81,10 @@ const Portfolio = () => {
 
       <div className='portfolio-item'>
         <div className='portfolio-info'>
-          <div className='portfolio-title'>N.E.O.N</div>
+          <div className='portfolio-title'>
+            <h3>N.E.O.N</h3>
+            <div className='title-line'></div>
+          </div>
           <div className='portfolio-links'>
             <a href='https://neon-simulation.herokuapp.com/'>website</a>
             <a href='https://github.com/even13/game_of_life'>code</a>
