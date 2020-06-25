@@ -17,7 +17,39 @@
 .portfolio-info {
   margin-bottom: 30px;
 }
+.portfolio-title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.125em;
+  color: #00A8E8;
+  margin-bottom: 15px;
+}
 
+.portfolio-tech-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.portfolio-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px
+}
+
+.portfolio-links a {
+  font-size: 1.25em;
+  color: #00A8E8;
+  letter-spacing: 0.075em;
+  font-weight: bold;
+  margin-right: 10px
+}
+
+.portfolio-tech-skills h2 {
+  color: #00A8E8;
+  letter-spacing: 0.1em;
+}
 .portfolio-image {
   position: relative;
   display: flex;
@@ -27,13 +59,19 @@
   width: 100%
 }
 
-.portfolio-title {
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #00A8E8;
-  margin-left: 10vw
+.skill-item {
+  padding: 5px 10px;
+  color: #383E42;
+  background: #F3F3F3;
+  margin: 5px;
+  border-radius: 10px;
 }
+.skill-item p {
+  margin: 0;
+  font-size: 1em; 
+}
+
+
 
 .device-image {
   width: 100%
@@ -46,8 +84,6 @@
   bottom: 50%;
   border: 1px solid black
 }
-
-
 
 @media (min-width: 49em) {
   .portfolio-item {
@@ -76,7 +112,6 @@
     font-weight: bold;
     letter-spacing: 2px;
     color: #00A8E8;
-    margin-left: 8vw
   }
 
   .stocksapp-gif {
