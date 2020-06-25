@@ -10,9 +10,6 @@ const Navbar = () => {
           <p>
             andrew bacon<span className='blue-dot'>.</span>
           </p>
-          <p>
-            ab<span className='blue-dot'>.</span>
-          </p>
         </a>
         <input className='nav-menu-btn' type='checkbox' id='nav-menu-btn' />
         <label className='nav-menu-icon' htmlFor='nav-menu-btn'>
