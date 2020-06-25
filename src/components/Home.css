@@ -7,10 +7,19 @@
 }
 
 
+.contact-img {
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+}
+
+
+
 .title {
   color: #00A8E8;
   font-size: 30px;
   letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 .content {
