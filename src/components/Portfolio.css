@@ -18,7 +18,12 @@
   margin-bottom: 30px;
 }
 
-.title-line {
+.title-line-begin {
+  width: 40px;
+  border-bottom: 2px solid #00A8E8;;
+}
+
+.title-line-end {
   flex-grow:1;
   border-bottom: 2px solid #00A8E8;;
 }
@@ -50,10 +55,15 @@
   font-size: 1.25em;
   color: #00A8E8;
   letter-spacing: 0.075em;
-  margin-right: 10px
+  margin: 0px 15px
 }
 
-.portfolio-tech-skills h2 {
+.portfolio-tech-skills h3 {
+  color: #00A8E8;
+  letter-spacing: 0.1em;
+}
+
+.portfolio-links h3 {
   color: #00A8E8;
   letter-spacing: 0.1em;
 }

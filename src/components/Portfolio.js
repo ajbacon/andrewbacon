@@ -2,18 +2,17 @@ import React from 'react';
 import './Portfolio.css';
 import deviceImg from './images/zZNgk.png';
 
+// this component needs a complete refactor to split out into sub-components
+
 const Portfolio = () => {
   return (
     <div className='portfolio'>
       <div className='portfolio-item'>
         <div className='portfolio-info'>
           <div className='portfolio-title'>
+            <div className='title-line-begin'></div>
             <h3>StocksApp</h3>
-            <div className='title-line'></div>
-          </div>
-          <div className='portfolio-links'>
-            <a href='https://project-stocks-app.herokuapp.com/'>website</a>
-            <a href='https://github.com/ajbacon/StocksApp'>code</a>
+            <div className='title-line-end'></div>
           </div>
           <div className='portfolio-description'>
             <p>
@@ -30,7 +29,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className='portfolio-tech-skills'>
-            <h2>Technologies:</h2>
+            <h3>Technologies:</h3>
             <div className='skill-item'>
               <p>Node</p>
             </div>
@@ -54,7 +53,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className='portfolio-tech-skills'>
-            <h2>Skills:</h2>
+            <h3>Skills:</h3>
             <div className='skill-item'>
               <p>CI/CD</p>
             </div>
@@ -71,6 +70,11 @@ const Portfolio = () => {
               <p>NoSQL Databases</p>
             </div>
           </div>
+          <div className='portfolio-links'>
+            <h3>Links:</h3>
+            <a href='https://project-stocks-app.herokuapp.com/'>website</a>
+            <a href='https://github.com/ajbacon/StocksApp'>code</a>
+          </div>
         </div>
 
         <div className='portfolio-image'>
@@ -82,12 +86,9 @@ const Portfolio = () => {
       <div className='portfolio-item'>
         <div className='portfolio-info'>
           <div className='portfolio-title'>
+            <div className='title-line-begin'></div>
             <h3>N.E.O.N</h3>
-            <div className='title-line'></div>
-          </div>
-          <div className='portfolio-links'>
-            <a href='https://neon-simulation.herokuapp.com/'>website</a>
-            <a href='https://github.com/even13/game_of_life'>code</a>
+            <div className='title-line-end'></div>
           </div>
           <div className='portfolio-description'>
             <p>
@@ -103,7 +104,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className='portfolio-tech-skills'>
-            <h2>Technologies:</h2>
+            <h3>Technologies:</h3>
             <div className='skill-item'>
               <p>Node</p>
             </div>
@@ -118,7 +119,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className='portfolio-tech-skills'>
-            <h2>Skills:</h2>
+            <h3>Skills:</h3>
             <div className='skill-item'>
               <p>CI/CD</p>
             </div>
@@ -131,6 +132,11 @@ const Portfolio = () => {
             <div className='skill-item'>
               <p>TDD</p>
             </div>
+          </div>
+          <div className='portfolio-links'>
+            <h3>Links:</h3>
+            <a href='https://neon-simulation.herokuapp.com/'>website</a>
+            <a href='https://github.com/even13/game_of_life'>code</a>
           </div>
         </div>
 
