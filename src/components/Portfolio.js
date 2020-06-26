@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import deviceImg from './zZNgk.png';
+import deviceImg from './images/zZNgk.png';
 
 const Portfolio = () => {
   return (
