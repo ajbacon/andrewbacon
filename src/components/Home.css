@@ -36,6 +36,10 @@
   text-justify: distribute;
 }
 
+.content a {
+  color: #00A8E8;
+}
+
 @media (min-width: 49em) {
 
   .content {

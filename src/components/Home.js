@@ -32,7 +32,13 @@ const Home = () => {
           Node, React, Python, Ruby/Rails and various other associated libraries
           and frameworks.
         </p>
-        <p>Please see my portfolio page for latest personal projects</p>
+        <p>
+          Please see my{' '}
+          <span>
+            <a href='/portfolio'>portfolio</a>
+          </span>{' '}
+          page for latest personal projects
+        </p>
         <p>
           Software engineering has not been my only passion. After earning a
           Masters degree in Aerospace Engineering from the University of

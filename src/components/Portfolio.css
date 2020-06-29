@@ -58,6 +58,7 @@
   margin: 0px 15px
 }
 
+/* refactor the repetition here */
 .portfolio-tech-skills h3 {
   color: #00A8E8;
   letter-spacing: 0.1em;
@@ -87,8 +88,6 @@
   margin: 0;
   font-size: 1em; 
 }
-
-
 
 .device-image {
   width: 100%
