@@ -23,6 +23,9 @@ const Navbar = () => {
           <li>
             <a href='/blog'>blog</a>
           </li>
+          <li>
+            <a href='/random'>random</a>
+          </li>
         </ul>
       </header>
       <div className='nav-spacer'></div>

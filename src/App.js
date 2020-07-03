@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
+import Random from './components/Random';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' exact component={Home}></Route>
         <Route path='/portfolio' exact component={Portfolio}></Route>
         <Route path='/blog' exact component={Blog}></Route>
+        <Route path='/random' exact component={Random}></Route>
       </Router>
     </div>
   );
